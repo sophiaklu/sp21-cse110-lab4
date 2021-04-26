@@ -18,31 +18,35 @@
 10) It will print 3 since const length is set at the beginning of the function and not updated as it shouldn't be.
 11) The function will return the discounted array which includes [50, 100, 150]. You can modify const arrays.
 12) 
+    ```
     a)  student.name
     b)  student['Grad Year']
     c)  student.greeting()
     d)  student['Favorite Teacher'].name
     e)  student.courseLoad[0]
-13) 
-    a) '32' - since integers map to their exact string representation
-    b) 1 - '3' take sthe int form to do 3-2 = 1
-    c) 3 - since null becomes 0 with numeric conversion
-    d) '3null' - null just becomes a string with the name null
-    e) 4 - true becomes 1 with numeric conversion
-    f) 0 - false becomes 0 and null becomes 0 with numeric conversions
-    g) '3undefined' - undefined becomes the string form and is concatenated to 3
-    h) NaN - subtraction with non-numbers is NaN
-14) 
-    a)  true - string '2' becomes number 2
-    b)  true - string '2' becomes number 2, string '12' becomes number 12
-    c)  true - string '2' becomes number 2
-    d)  false - string '2' becomes number 2, === says false because string and integer are different 
-    e)  false - true becomes 1
-    f)  true - Boolean(2) is false, and === is to check if true and false are not equal so thats true
+    ```
+13) <br>
+    a) '32' - since integers map to their exact string representation<br>
+    b) 1 - '3' take sthe int form to do 3-2 = 1<br>
+    c) 3 - since null becomes 0 with numeric conversion<br>
+    d) '3null' - null just becomes a string with the name null<br>
+    e) 4 - true becomes 1 with numeric conversion<br>
+    f) 0 - false becomes 0 and null becomes 0 with numeric conversions<br>
+    g) '3undefined' - undefined becomes the string form and is concatenated to 3<br>
+    h) NaN - subtraction with non-numbers is NaN<br>
+14) <br>
+    a)  true - string '2' becomes number 2<br>
+    b)  true - string '2' becomes number 2, string '12' becomes number 12<br>
+    c)  true - string '2' becomes number 2<br>
+    d)  false - string '2' becomes number 2, === says false because string and integer are different <br>
+    e)  false - true becomes 1<br>
+    f)  true - Boolean(2) is false, and === is to check if true and false are not equal so thats true<br>
 15) === (Triple equals) is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. While == is just a regular equality checker that doesn't pay attention to variable type.
 16) The result will be [2,4,6] because you are using the function that is passed into modifyArray which doubles a number and this callback function is doubling the value at that array index and pushing it onto the new array you are making for each iteration of the forloop.
 17) ans:
+    ```
     1
     4
     3
     2
+    ```
