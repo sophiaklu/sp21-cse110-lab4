@@ -36,7 +36,7 @@
     h) NaN - subtraction with non-numbers is NaN<br>
 14) <br>
     a)  true - string '2' becomes number 2<br>
-    b)  true - string '2' becomes number 2, string '12' becomes number 12<br>
+    b)  false - compares the string values in lexicographical order<br>
     c)  true - string '2' becomes number 2<br>
     d)  false - string '2' becomes number 2, === says false because string and integer are different <br>
     e)  false - true becomes 1<br>
